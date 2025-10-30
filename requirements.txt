@@ -1,0 +1,15 @@
+# --- Core Dependencies ---
+streamlit>=1.37.0          # Dashboard framework
+pandas>=2.2.0              # Data handling (CSV, filtering, grouping)
+numpy>=1.26.0              # Numerical calculations
+plotly>=5.22.0             # Interactive visualizations (line, bar, trend charts)
+
+# --- Optional Visualization & Export Support ---
+matplotlib>=3.9.0          # (Optional) additional static charting support
+seaborn>=0.13.2            # (Optional) enhanced statistical visualizations
+openpyxl>=3.1.2            # For Excel read/write if needed
+python-dateutil>=2.9.0     # For robust date formatting
+
+# --- Performance & Compatibility ---
+requests>=2.31.0           # Ensures smooth API or file requests
+altair>=5.3.0              # (Optional) alternative interactive charting
